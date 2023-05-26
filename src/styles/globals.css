@@ -1,0 +1,41 @@
+:root {
+  --color-yellow: #EDB507
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+body {
+  color: '#000 !important';
+  background: '#fff !important';
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+/* bg colors */
+.bg-color-yellow{
+  background-color: var(--color-yellow);
+}
+
+/* text colors */
+.text-yellow{
+  color: var(--color-yellow);
+}
+
+/* height */
+.min-h-100vh{
+  min-height: 100vh;
+  height: auto;
+}
