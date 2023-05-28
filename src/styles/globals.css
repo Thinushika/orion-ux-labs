@@ -199,6 +199,27 @@ p, a, select, label, input, ul, li{
 
 
 
+/* nav bar */
+.nav-link{
+    font-family: var(--font-primary);
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--color-black);
+}
+
+.nav-link:hover{
+    font-weight: 600;
+    transition: width 0.5s ease-out; 
+}
+.active-nav{
+    font-weight: 600;
+    text-decoration: underline;
+    text-decoration-color: var(--color-black);
+    text-underline-offset: 7px;
+    text-decoration-thickness: 3px;
+}
+
+
 /* =================== media quaires ===================== */
 @media only screen and (max-width: 992px) {
     .hero-img-size{

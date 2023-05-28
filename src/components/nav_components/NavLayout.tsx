@@ -42,10 +42,10 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
                 </div>
                 <div className="d-flex flex-column text-center justify-content-center pt-5 mt-5">
                     <Link className="nav-link px-3 py-2" aria-current="page" onClick={mobileNavbarHandler} href="/">Home</Link>
-                    <Link className="nav-link px-3 py-2" onClick={mobileNavbarHandler} href="/">Projects</Link>
-                    <Link className="nav-link px-3 py-2" onClick={mobileNavbarHandler} href="/">Services</Link>
-                    <Link className="nav-link px-3 py-2" onClick={mobileNavbarHandler} href="/">Market</Link>
-                    <Link className="nav-link px-3 py-2" onClick={mobileNavbarHandler} href="/">About Us</Link>
+                    <Link className="nav-link px-3 py-2" onClick={mobileNavbarHandler} href="/projects">Projects</Link>
+                    <Link className="nav-link px-3 py-2" onClick={mobileNavbarHandler} href="/services">Services</Link>
+                    <Link className="nav-link px-3 py-2" onClick={mobileNavbarHandler} href="/market">Market</Link>
+                    <Link className="nav-link px-3 py-2" onClick={mobileNavbarHandler} href="/about-us">About Us</Link>
                 </div>
             </div>
             <ActiveNav />
@@ -58,10 +58,10 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav ms-auto">
               <Link className="nav-link px-3 py-0" aria-current="page" href="/">Home</Link>
-              <Link className="nav-link px-3 py-0" href="/">Projects</Link>
-              <Link className="nav-link px-3 py-0" href="/">Services</Link>
-              <Link className="nav-link px-3 py-0" href="/">Market</Link>
-              <Link className="nav-link px-3 py-0" href="/">About Us</Link>
+              <Link className="nav-link px-3 py-0" href="/projects">Projects</Link>
+              <Link className="nav-link px-3 py-0" href="/services">Services</Link>
+              <Link className="nav-link px-3 py-0" href="/market">Market</Link>
+              <Link className="nav-link px-3 py-0" href="/about-us">About Us</Link>
             </div>
           </div>
         </div>
