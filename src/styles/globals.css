@@ -9,7 +9,14 @@
     --color-yellow: #E1AA00;
     --color-light: #E0E0E0;
     --color-gray: #4F4F4F;
-
+    --space: 100px;
+    --oneside-space: 100px;
+}
+@media only screen and (max-width: 992px) {
+    :root{
+        --space: 20px;
+        --oneside-space: 0px;
+    }
 }
 .main-wrapper{
     width: 100%;
@@ -50,15 +57,19 @@ p, a, select, label, input, ul, li{
 }
 .font-32px{
     font-size: 32px;
+    line-height: 35px;
 }
 .font-28px{
     font-size: 28px;
+    line-height: 31px;
 }
 .font-26px{
     font-size: 26px;
+    line-height: 29px;
 }
 .font-24px{
     font-size: 24px;
+    line-height: 27px;
 }
 .font-22px{
     font-size: 22px;
@@ -142,6 +153,33 @@ p, a, select, label, input, ul, li{
 
 
 
+/* space */
+.padding-left-100px{
+    padding-left: var(--oneside-space);
+}
+.padding-right-100px{
+    padding-right: var(--oneside-space);
+}
+.padding-x-100px{
+    padding-left: var(--space);
+    padding-right: var(--space);
+}
+
+
+
+
+
+/* height */
+.height-80vh{
+    min-height: 80vh;
+    height: auto;
+}
+
+
+
+
+
+
 /* buttons */
 .btn-hero-sec{
     width: 200px;
@@ -151,9 +189,21 @@ p, a, select, label, input, ul, li{
 
 
 
+/* imgs */
+.hero-img-size{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+
+
+
 /* =================== media quaires ===================== */
 @media only screen and (max-width: 992px) {
-    
+    .hero-img-size{
+        position: relative;
+    }
 }
 
 @media only screen and (max-width: 600px){

@@ -20,7 +20,7 @@ const NavLayout: React.FC<NavLayoutProps> = ({ children }) => {
 
   return (
     <>
-      <nav className="navbar navbar-expand-xl main-padding " style={{backgroundColor:"#fff !important"}}>
+      <nav className="navbar navbar-expand-xl main-padding padding-x-100px " style={{backgroundColor:"#fff !important"}}>
         <div className="container-fluid px-0">
           {/* side logo area */}
           <div className="d-flex flex-row justify-content-center align-items-center">
