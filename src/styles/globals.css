@@ -1,41 +1,161 @@
-:root {
-  --color-yellow: #EDB507
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+:root{
+    --font-primary: 'Inter', sans-serif;
+    --font-secondary:  'Raleway', sans-serif;
+    --color-black: #000;
+    --color-white: #fff;
+    --color-yellow: #E1AA00;
+    --color-light: #E0E0E0;
+    --color-gray: #4F4F4F;
+
+}
+.main-wrapper{
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: #fff;
 }
 
-* {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+h1, h2, h3, h4, h5, h6, a{
+    font-family: var(--font-primary);
+
+}
+p, a, select, label, input, ul, li{
+    font-family: var(--font-secondary);
 }
 
-html,
-body {
-  max-width: 100vw;
-  overflow-x: hidden;
+.font-inter{
+    font-family: var(--font-primary);
+}
+.font-raleway{
+    font-family: var(--font-secondary);
 }
 
-body {
-  color: '#000 !important';
-  background: '#fff !important';
+
+
+/* font sizes */
+.font-72px{
+    font-size: 72px;
+}
+.font-64px{
+    font-size: 64px;
+}
+.font-48px{
+    font-size: 48px;
+}
+.font-42px{
+    font-size: 42px;
+}
+.font-32px{
+    font-size: 32px;
+}
+.font-28px{
+    font-size: 28px;
+}
+.font-26px{
+    font-size: 26px;
+}
+.font-24px{
+    font-size: 24px;
+}
+.font-22px{
+    font-size: 22px;
+}
+.font-21px{
+    font-size: 21px;
+}
+.font-18px{
+    font-size: 18px;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+
+
+
+/* font-weight */
+.font-100{
+    font-weight: 100
 }
+.font-200{
+    font-weight: 200
+}
+.font-300{
+    font-weight: 300
+}
+.font-400{
+    font-weight: 400
+}
+.font-500{
+    font-weight: 500
+}
+.font-600{
+    font-weight: 600
+}
+.font-700{
+    font-weight: 700
+}
+.font-800{
+    font-weight: 800
+}
+.font-900{
+    font-weight: 900
+}
+
+
 
 /* bg colors */
 .bg-color-yellow{
-  background-color: var(--color-yellow);
+    background-color: var(--color-yellow);
 }
+.bg-color-black{
+    background-color: var(--color-black);
+}
+.bg-color-white{
+    background-color: var(--color-white);
+}
+.bg-color-light{
+    background-color: var(--color-light);
+}
+.bg-color-gray{
+    background-color: var(--color-gray);
+}
+
+
 
 /* text colors */
-.text-yellow{
-  color: var(--color-yellow);
+.txt-color-yellow{
+    color: var(--color-yellow);
+}
+.txt-color-black{
+    color: var(--color-black);
+}
+.txt-color-white{
+    color: var(--color-white);
+}
+.txt-color-light{
+    color: var(--color-light);
+}
+.txt-color-gray{
+    color: var(--color-gray);
 }
 
-/* height */
-.min-h-100vh{
-  min-height: 100vh;
-  height: auto;
+
+
+/* buttons */
+.btn-hero-sec{
+    width: 200px;
+    height: 60px;
+}
+
+
+
+
+/* =================== media quaires ===================== */
+@media only screen and (max-width: 992px) {
+    
+}
+
+@media only screen and (max-width: 600px){
+
 }
